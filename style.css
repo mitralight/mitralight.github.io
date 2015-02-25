@@ -7,22 +7,40 @@ body {
     background-color: lightblue;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-    font-family: denseRegular;
-	font-size: 350%;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+div {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 50%;
+	height: 28%;
+	margin: auto;
 }
 
-h2 {
+#MitraLight {
     color: white;
     text-align: center;
     font-family: denseRegular;
-	font-size: 250%;
-	position: relative;
-	top: 50%;
-	transform: translateY(-55%);
+	font-size: 500%;
+	position: absolute;
+	bottom: 200px;
+}
+
+#Technologies {
+    color: white;
+    text-align: center;
+    font-family: denseRegular;
+	font-size: 390%;
+	position: absolute;
+	bottom: 70px;
+}
+
+#ComingSoon {
+    color: white;
+    text-align: center;
+    font-family: denseRegular;
+	font-size: 145%;
+	position: absolute;
+	bottom: -70px;
 }
